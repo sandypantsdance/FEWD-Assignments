@@ -1,0 +1,23 @@
+header{
+	color: pink;
+}
+
+#name{
+	font-size: 50px;
+	text-align: center;
+}
+
+a{
+	color: gray;
+}
+
+ul{
+	margin: 0px;
+	padding: 10px;
+	background: black;
+}
+
+li{
+	display: inline;
+	padding: 14px 16px
+}
