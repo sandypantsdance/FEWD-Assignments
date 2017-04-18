@@ -1,9 +1,11 @@
 header{
 	color: pink;
+	font-family: 'Covered By Your Grace', cursive;
+	font-weight: bold;
 }
 
 body{
-	font-family: Trebuchet MS;
+	font-family: 'Patrick Hand', cursive;
 }
 
 #name{
@@ -15,11 +17,13 @@ a{
 	color: gray;
 }
 
-.nav{
+nav{
 	margin: 0px;
-	padding: 10px;
+	padding: 3px;
 	background: black;
 	text-align: center;
+	font-family: 'Caveat Brush', cursive;
+	font-weight: normal;
 }
 
 li{
@@ -29,10 +33,11 @@ li{
 
 img{
 	float: right;
-	height: 250px;
-	width: 300px;
+	height: 50%;
+	width: 50%;
 }
 
 #intro{
 	float: left;
+	width: 50%;
 }
