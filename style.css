@@ -15,7 +15,7 @@ a{
 	color: gray;
 }
 
-#nav{
+.nav{
 	margin: 0px;
 	padding: 10px;
 	background: black;
@@ -28,11 +28,11 @@ li{
 }
 
 img{
-	float: left;
+	float: right;
 	height: 250px;
 	width: 300px;
 }
 
 #intro{
-	float: right;
+	float: left;
 }
