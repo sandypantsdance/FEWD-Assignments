@@ -1,5 +1,13 @@
+/*Font: Open Sans (Google Font: 
+https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)*/
+
+
+body {
+	background-color: #121212;
+}
+
 .content{
-	width: 1200px;
+	width: 1000px;
 	padding-left: 60px;
 	padding-right: 60px;
 }
@@ -8,7 +16,6 @@ header{
 	height: 700px;
 	background-repeat: no-repeat;
 	background-image: url("../images/header_bg.jpg");
-	background-color: white;
 }
 
 header nav{
@@ -18,52 +25,109 @@ header nav{
 	padding-top: 30px;
 }
 
-header > p{
+header p{
+	margin-top: 150px;
 	font-size: 24px;
-	font-size: 200px;
+	color: white;
+	text-align: center;
 }
 
-#get-it{
-	border: 2px solid #f9e42e;
-	border-radius: 5px;
-	background-color: #f9e42e;
-	width: 75px;
+.first-button{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.first-button a{
+	color: #121212;
+	text-decoration: none;
 	font-size: 14px;
 	font-weight: 800;
+	background-color: #f9e42e;
+	border-radius: 5px;
 	padding: 10px;
-	padding-right: 25px; 
+	padding-right: 25px;
 	padding-left: 25px;
 }
 
-h3{
+.benefits{
+	color: #121212;
+	background-color: white;
+	border: 5px solid white;
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-right: 500px;
+	padding-bottom: 100px;
+	font-size: 13px
+	font-weight: 300;
+}
+
+.benefits ul{
+	list-style-type: disc;
+}
+
+.benefits h3{
 	font-size: 20px; 
 	font-weight: 700;
 }
 
 .quote{
 	color: white;
-	font-size: 13px
-	font-weight: 300;
+	font-size: 18px;
 	text-align: center;
 	background-image: url("../images/testimonial_bg.jpg");
+	background-repeat: no-repeat;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.quote.line{
+	font-style: italic;
+	font-weight: 300;
+	padding-top: 45px;
+}
+
+.quote.name{
+	font-weight: 700;
+	padding-bottom: 100px;
 }
 
 .signup{
-	color: white;
-	font-size: 12px;
-	background-color: #033048;
-	width: 80px;
-	padding: 10px;
-	border-radius: 5px;
+	text-align: center;
+	background-color: #f9e42e;
+	padding: 35px;
 }
 
-.action{
-	background-color: #f9e42e;
-	width: auto;
-	padding: 20px;
+.signup a{
+	color: white;
 	font-weight: 800;
+	font-size: 12px;
+	text-decoration: none;
+	background-color: #033048;
+	border-radius: 5px;
+	padding: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
 }
 
 footer{
+	background-color: #121212;
+	height: 200px;
+	padding: 50px;
+	color: white;
 	text-align: center;
+}
+
+footer h2{
+	color: #f9e42e;
+	margin: 0;
+	font-size: 24px;
+}
+
+.social{
+	margin-top: 20px;
+}
+
+.facebook{
+    width: 43px;	
+    display: inline-block;
 }
