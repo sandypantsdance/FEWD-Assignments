@@ -1,0 +1,69 @@
+.content{
+	width: 1200px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+header{
+	height: 700px;
+	background-repeat: no-repeat;
+	background-image: url("../images/header_bg.jpg");
+	background-color: white;
+}
+
+header nav{
+	color: white;
+	font-weight: 800;
+	font-size: 24px;
+	padding-top: 30px;
+}
+
+header > p{
+	font-size: 24px;
+	font-size: 200px;
+}
+
+#get-it{
+	border: 2px solid #f9e42e;
+	border-radius: 5px;
+	background-color: #f9e42e;
+	width: 75px;
+	font-size: 14px;
+	font-weight: 800;
+	padding: 10px;
+	padding-right: 25px; 
+	padding-left: 25px;
+}
+
+h3{
+	font-size: 20px; 
+	font-weight: 700;
+}
+
+.quote{
+	color: white;
+	font-size: 13px
+	font-weight: 300;
+	text-align: center;
+	background-image: url("../images/testimonial_bg.jpg");
+}
+
+.signup{
+	color: white;
+	font-size: 12px;
+	background-color: #033048;
+	width: 80px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.action{
+	background-color: #f9e42e;
+	width: auto;
+	padding: 20px;
+	font-weight: 800;
+}
+
+footer{
+	text-align: center;
+}
