@@ -1,0 +1,206 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  background-color: #033048;
+  height: 100px;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: 600px;
+}
+
+#top h1{
+  color: white;
+  float: left;
+  margin: 10px;
+  line-height: 75px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#top .navbar{
+  float: right;
+  margin: 10px;
+  line-height: 75px;
+}
+
+.navbar a{
+  color: #f9e42e;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.Main{
+  background-color: #f0efef;
+  overflow: auto;
+}
+
+aside{
+  float: right;
+  width: 240px;
+  color: #033048;
+}
+
+aside a{
+  color: #033048;
+}
+
+h3{
+  font-size: 32px;
+  font-weight: 800;
+  font-color: #033048;
+}
+
+.Posts{
+  width: 700px;
+  padding-bottom: 80px;
+}
+
+.Posts h2{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.Posts p{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.Posts p:first-letter{
+  font-size: 36px
+}
+
+.read-more{
+  text-align: right;
+}
+
+.read-more a{
+  color: #033048;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+article{
+  border-bottom: 2px solid #033048;
+  padding-bottom: 30px;
+}
+
+.signup{
+  text-align: center;
+  background-color: #f9e42e;
+  padding: 35px;
+}
+
+.signup a{
+  color: white;
+  font-weight: 800;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #033048;
+  border-radius: 5px;
+  padding: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+footer{
+  background-color: #121212;
+  height: 200px;
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+
+footer h2{
+  color: #f9e42e;
+  margin: 0;
+  font-size: 24px;
+}
+
+.social{
+  margin-top: 20px;
+}
+
+.facebook{
+    width: 43px;  
+    display: inline-block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+/*TO DO
+- hover bold for links
+- giant first letter and wrap p*/
+
