@@ -1,9 +1,15 @@
 /*Font: Open Sans (Google Font: 
 https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)*/
 
+/*light: 300*/
+/*bold: 600*/
+/*semibold: 700*/
+/*extrabold: 800*/
+
 
 body {
 	background-color: #121212;
+	font-family: Open Sans;
 }
 
 .content{
@@ -50,7 +56,7 @@ header p{
 }
 
 .benefits{
-	color: #121212;
+	color: #606161;
 	background-color: white;
 	border: 5px solid white;
 	padding-top: 50px;
@@ -66,6 +72,7 @@ header p{
 }
 
 .benefits h3{
+	color: #033048;
 	font-size: 20px; 
 	font-weight: 700;
 }
