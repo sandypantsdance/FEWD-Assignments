@@ -90,8 +90,8 @@ a:active{
   float: left;
   margin: 10px;
   line-height: 75px;
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 32px;
+  font-weight: 800;
 }
 
 #top .navbar{
@@ -124,12 +124,13 @@ aside a{
 
 h3{
   font-size: 32px;
-  font-weight: 800;
+  font-weight: 700;
   font-color: #033048;
 }
 
 #categories p{
   font-size: 24px;
+  font-weight: 300;
 }
 
 #about-relaxr p{
@@ -138,7 +139,11 @@ h3{
 }
 
 #about-relaxr a{
-  font-weight: 700;
+  font-weight: 600;
+}
+
+#about-relaxr a:hover{
+  font-weight: 800;
 }
 
 .Posts{
@@ -151,16 +156,18 @@ h3{
   font-weight: 600;
 }
 
-.firstletter{
+.Posts p::first-letter{
+  font-size: 80px;
+  font-weight: 600;
   float: left;
-  font-size: 60px;
-  padding-top: 10px;
-  padding-bottom: 0px;
+  line-height: 80px;
+  padding-right: 6px;
 }
 
 .Posts p{
   font-size: 24px;
   font-weight: 300;
+  color: #606161;
 }
 
 .read-more{
@@ -171,6 +178,11 @@ h3{
   color: #033048;
   text-decoration: none;
   font-size: 24px;
+  font-weight: 600;
+}
+
+.read-more a:hover{
+  font-weight: 800;
 }
 
 article{
@@ -182,6 +194,7 @@ article{
   text-align: center;
   background-color: #f9e42e;
   padding: 35px;
+  margin: auto;
 }
 
 .signup a{
@@ -194,6 +207,7 @@ article{
   padding: 10px;
   padding-right: 25px;
   padding-left: 25px;
+  margin: auto;
 }
 
 footer{
@@ -208,6 +222,7 @@ footer h2{
   color: #f9e42e;
   margin: 0;
   font-size: 24px;
+  text-align: center;
 }
 
 .social{
@@ -226,6 +241,4 @@ footer h2{
 
 
 
-/*TO DO
-- giant first letter and wrap p -- check*/ 
 
