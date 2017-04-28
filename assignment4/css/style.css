@@ -40,15 +40,23 @@ li a{
 }
 
 #tagline{
-	border-top: 10px solid yellow;
+	border-top: 5px solid yellow;
 	background-color: #D3D3D3;
 	text-align: center;
+	padding-bottom: 5px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+#are{
+	text-decoration: underline;
 }
 
 #meet-your-match{
 	background-image: url("../images/coworking.jpg");
 	background-size: cover;
-	height: 500px;
+	height: 400px;
+	padding-top: 100px;
 }
 
 .opaque{
@@ -75,6 +83,7 @@ li a{
 	color: black;
 	font-size: 20px;
 	font-weight: 700;
+	box-shadow: 0px 3px #D3D3D3;
 }
 
 h3{
@@ -96,6 +105,7 @@ h3{
 	background-color: #D3D3D3;
 	padding: 10px;
 	font-weight: 600;
+	box-shadow: 0px 3px #999;
 }
 
 h4{
@@ -103,8 +113,8 @@ h4{
 }
 
 .find-developer{
-	border-right: dotted;
-	border-left: dotted;
+	border-right: 1px solid #D3D3D3;
+	border-left: 1px solid #D3D3D3;
 }
 
 footer{
