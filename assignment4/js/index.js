@@ -32,11 +32,3 @@ $(document).ready(function(){
 
 
 
-
-/*
-
-Using the same functions as above, if a user clicks the 
-"Learn More" link in the sidebar, have the <span> inside that 
-<p> slide down and hide the "Learn More" link using $.slideDown() 
-and $.hide()
-*/
