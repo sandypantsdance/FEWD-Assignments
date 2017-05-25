@@ -15,11 +15,17 @@ function convert(){
 	event.preventDefault();
 	var tempC = $('#currentTemp').val().trim();
 	tempC = Number(tempC);
+	var result = cToF(tempC);
+	$('.tempF').text(result);
+	changeBackground(result);
+}
 	
-	var tempF = (tempC * 1.8) + 32;
-	var output = Number(tempF);
-	output.toFixed(1);
+function cToF(tempC){
+		var tempF = (tempC * 1.8) + 32;
+		return(tempF)
+}
 
+function changeBackground(tempF){
 	switch(true){
 		case (tempF > 85):
         	$('body').attr('class', 'hot');
@@ -31,9 +37,7 @@ function convert(){
      		$('body').attr('class', 'cold');
         	break;
 	}
-
-//display temp in F
-	$('.tempF').text(output);
 }
+
 
 });
