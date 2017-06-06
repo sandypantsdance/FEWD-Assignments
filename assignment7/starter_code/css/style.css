@@ -1,20 +1,30 @@
 /* SANDY'S COMMENTS
 
-GOALS:
-- Adjust to a 768px breakpoint
-- No other specifics
-
 HELP:
 
 1. background pic does not scale
-2. format of hamburger dropdown is hideous
-3. bonus question - if the screen is smaller
-   (ex. 615px), how do i make the text size adjust
-   automatically?
 ---> set a min height fixes the format issue but
      creates an extra blue bar because the pic
      is only 394px tall
 
+  ***ANSWER: for smaller screen sizes - use pixel
+    for background image width;
+
+2. format of hamburger dropdown is hideous
+
+  ***ANSWER: put hamburger and nav in same div;
+
+3. how do i make the text size adjust
+   automatically?
+
+  ***ANSWER: use ems at particular break points
+  - font size % uses the current font size 
+  (ex: 100px --> 75% = 75px)
+
+
+TRY:
+  - putting nav in its own class so that it can
+  hide and display properly
 
 */
 
@@ -103,11 +113,6 @@ header .logo {
   float: left;
 }
 
-header nav {
-  float: right;
-  margin-top: 1.5625%;
-  width: 55%;
-}
 header nav ul li {
   display: inline-block;
   margin: 0 0 0 4.16667%;
@@ -117,11 +122,17 @@ header nav ul li a {
   color: #f9e42e;
 }
 
+#menu{
+  float: right;
+  width: 400px;
+  padding-top: 25px;
+}
+
 #hamburger{
   display: none;
   height: 36px;
   width: 48px;
-  margin-top: 50px;
+  margin-top: 25px;
   float: right;
   margin-right: 40px;
 }
@@ -133,7 +144,7 @@ header nav ul li a {
 }
 
 #hero {
-  height: 700px;
+  height: 500px;
   background: url(../images/header_bg.jpg) #131e27;
   background-size: cover;
   padding-top: 3.33333%;
@@ -181,7 +192,7 @@ h3 {
 #benefits p, #benefits ul {
   width: 62.5%;
 }
-#benefits ul {
+#benefi  ts ul {
   list-style: disc;
   margin: 3.125% 0 0 8.33333%;
 }
@@ -347,8 +358,9 @@ footer p {
     width: 100%;
     text-align: right;
   }
+
   p{
-    font-size: 75%;
+    font-size: 0.7em;
   }
   #benefits li{
     font-size: 75%;
@@ -356,5 +368,11 @@ footer p {
   }
   #hero {
     height: 500px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  header nav{
+    display: block;
   }
 }
