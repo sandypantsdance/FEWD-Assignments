@@ -3,23 +3,23 @@ body{
 	font-weight: 400;
 	font-family: 'Margarine', sans-serif;
 	text-decoration: none;
-	background-color: gray;
+	background-color: white;
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1024px;
   margin: 0;
 }
 
 header{
-	background-color: gray;
+	background-color: #ffee99;
   	overflow: hidden;
 }
 
 .social{
 	position: absolute; 
-	top: 10px;
-	right: 10px;
+	top: 0.97656%;
+	right: 0.97656%;
 }
 
 .social img{
@@ -28,20 +28,21 @@ header{
 	padding: 3px;
 }
 
-header .logo {
+header .logo{
 	text-align: center;
-	font-size: 56px;
+	font-size: 60px;
  	font-weight: 800;
  	font-family: 'Margarine', sans-serif;
 }
 
 header .logo a{
 	text-decoration: none;
-	color: black;
+	color: #66cccc;
 }
 
-header .logo p{
-	margin: 40px;
+header .logo h3{
+	width: 100%;
+	margin: 2.92969%;
 }
 
 header nav ul li {
@@ -51,34 +52,58 @@ header nav ul li {
 
 header nav ul li a {
 	color: white;
-	padding: 10px;
+	padding: 15px;
 	text-decoration: none;
+	color: #957fa4;
+	font-weight: 600;
+	font-size: 1.2em;
 }
 
 #menu {
 	text-align: center;
 	width: 100%;
-	padding-bottom: 5px;	
+	padding-bottom: 5px;
+}
+
+#menu a:hover{
+	font-size: 1.5em;
+	font-weight: 700;
 }
 
 #main-image{
-	background-image: url("../images/bullterrier.jpeg");
-	background-size: cover;
-	height: 800px;
+	background-image: url("../images/bullterrier2.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 750px;
 	width: 100%;
+}
+
+h4{
+	color: white;
+	width: 78.125%;
+	font-size: 36px;
+	position: absolute;
+	left: 4.88281%;
+	margin-top: 4.88281%;
+}
+
+#pt2{
+	margin-top: 9.76563%;
+	left: 27.34375%;
 }
 
 #about-blurb{
 	border-radius: 5px;
 	float: left;
 	font-size: 36px;
-	height: 18%;
-	width: 33%;
+	height: 330px;
+	width: 29.296875%;
 	background-color: white;
-	opacity: 0.4;
-	padding: 25px;
-	margin-top: 130px;
-	margin-left: 100px;
+	opacity: 0.5;
+	padding: 5px 25px 5px 25px;
+	margin-top: 19.53125%;
+	margin-left: 14.6484375%;
+	color: #66cccc;	
 }
 
 #why-blurb{
@@ -86,34 +111,103 @@ header nav ul li a {
 	width: 100%;
 	height: 225px;
 	background-color: white;
+	color: #66cccc;
 }
 
 #services{
 	clear: all;
 	width: 100%;
-	height: 200px;
+	height: 300px;
 	background-color: white;
+	font-size: 1.3em;
+}
+
+#services h2{
+	font-weight: 600;
 }
 
 #services-pic{
 	float: left;
-	height: 200px;
+	height: 300px;
 	width: 50%;
 	background-image: url("../images/cockerspaniel2.jpeg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #service-blurb{
-	float: right;
-	height: 225px;
-	width: 50%;
+	float: left;
+	height: 300px;
+	width: 46.38672%;
+	color: #957fa4;
+	margin: 3px;
+	padding-left: 1.5625%;
 }
 
-#footer{	
+#footer{
 	width: 100%;
-	height: 100px;
+	height: 160px;
 	text-align: center;
-	background-color: gray;
-	padding-top: 20px;
+	background-color: #66cccc;
+	padding-top: 1.95313%;
+	padding-bottom: 1.95313%;
+	color: white;
+	font-size: 1.2em;
 }
+
+#footer img{
+	width: 35px;
+	height: 35px;
+	padding: 20px 3px;
+}
+
+#footer a{
+	color: #ffee99;
+	font-weight: 300;
+}
+
+#footer a:hover{
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+#footer p{
+	padding-top: 1.95313%;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+#llc{
+	color: #957fa4;
+}
+
+@media screen and (max-width: 960px)
+ and (min-width: 769px){
+	.social img{
+		display: block;
+	}
+	header .logo h3{
+		font-size: 58px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.social img{
+		width: 28px;
+		height: 28px;
+		padding: 3px;
+		display: block;
+	}
+	header .logo h3{
+		font-size: 50px;
+	}
+
+}
+
+/*RESPONSIVE DESIGN
+
+320px (iPhone landscape)
+480px (iPhone portrait)
+600px (Android Tablets)
+768px (iPad + ~Galaxy Tabs)
+1024px (iPad landscape and desktops)*/
