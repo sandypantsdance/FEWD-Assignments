@@ -7,8 +7,9 @@ body{
 }
 
 .container {
-  max-width: 1024px;
+  max-width: 100%;
   margin: 0;
+  position: relative;
 }
 
 header{
@@ -17,9 +18,9 @@ header{
 }
 
 .social{
-	position: absolute; 
-	top: 0.97656%;
-	right: 0.97656%;
+	position: absolute;
+	padding: 10px;
+	right: 0;
 }
 
 .social img{
@@ -33,6 +34,7 @@ header .logo{
 	font-size: 60px;
  	font-weight: 800;
  	font-family: 'Margarine', sans-serif;
+ 	margin: 30px;
 }
 
 header .logo a{
@@ -40,9 +42,8 @@ header .logo a{
 	color: #66cccc;
 }
 
-header .logo h3{
-	width: 100%;
-	margin: 2.92969%;
+header nav ul {
+	padding: 0;
 }
 
 header nav ul li {
@@ -62,12 +63,13 @@ header nav ul li a {
 #menu {
 	text-align: center;
 	width: 100%;
-	padding-bottom: 5px;
+	padding: 5px 0px;
+	background-color: white;
 }
 
 #menu a:hover{
-	font-size: 1.5em;
 	font-weight: 700;
+	color: #66cccc;
 }
 
 #main-image{
@@ -80,7 +82,7 @@ header nav ul li a {
 
 h4{
 	color: white;
-	width: 78.125%;
+	/*width: 78.125%;*/
 	font-size: 36px;
 	position: absolute;
 	left: 4.88281%;
@@ -179,13 +181,11 @@ h4{
 
 #llc{
 	color: #957fa4;
+	font-weight: 600;
 }
 
 @media screen and (max-width: 960px)
  and (min-width: 769px){
-	.social img{
-		display: block;
-	}
 	header .logo h3{
 		font-size: 58px;
 	}
@@ -211,3 +211,18 @@ h4{
 600px (Android Tablets)
 768px (iPad + ~Galaxy Tabs)
 1024px (iPad landscape and desktops)*/
+
+
+/*CONTACT*/
+
+#contact-image{
+	background-image: url("../images/labmix2.jpeg");
+	background-size: cover;
+	height: auto;
+	width: 100%;
+}
+
+#contact-form{
+	border: 1px solid black;
+	position: absolute;
+}
