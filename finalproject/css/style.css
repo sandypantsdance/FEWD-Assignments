@@ -8,7 +8,6 @@ body{
 
 .container {
   max-width: 100%;
-  margin: 0;
   position: relative;
 }
 
@@ -71,6 +70,48 @@ header nav ul li a {
 	font-weight: 700;
 	color: #66cccc;
 }
+
+/*FOOTER*/
+
+#footer{
+	width: 100%;
+	height: 160px;
+	text-align: center;
+	background-color: #66cccc;
+	padding-top: 1.95313%;
+	padding-bottom: 1.95313%;
+	color: white;
+	font-size: 1.2em;
+}
+
+#footer img{
+	width: 35px;
+	height: 35px;
+	padding: 20px 3px;
+}
+
+#footer a{
+	color: #ffee99;
+	font-weight: 300;
+}
+
+#footer a:hover{
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+#footer p{
+	padding-top: 1.95313%;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+#llc{
+	color: #957fa4;
+	font-weight: 600;
+}
+
+/*INDEX*/
 
 #main-image{
 	background-image: url("../images/bullterrier2.jpeg");
@@ -146,43 +187,15 @@ h4{
 	padding-left: 1.5625%;
 }
 
-#footer{
-	width: 100%;
-	height: 160px;
-	text-align: center;
-	background-color: #66cccc;
-	padding-top: 1.95313%;
-	padding-bottom: 1.95313%;
-	color: white;
-	font-size: 1.2em;
-}
 
-#footer img{
-	width: 35px;
-	height: 35px;
-	padding: 20px 3px;
-}
 
-#footer a{
-	color: #ffee99;
-	font-weight: 300;
-}
+/*RESPONSIVE DESIGN
 
-#footer a:hover{
-	font-weight: 600;
-	font-size: 1.3em;
-}
-
-#footer p{
-	padding-top: 1.95313%;
-	font-size: 12px;
-	font-weight: 300;
-}
-
-#llc{
-	color: #957fa4;
-	font-weight: 600;
-}
+320px (iPhone landscape)
+480px (iPhone portrait)
+600px (Android Tablets)
+768px (iPad + ~Galaxy Tabs)
+1024px (iPad landscape and desktops)*/
 
 @media screen and (max-width: 960px)
  and (min-width: 769px){
@@ -204,25 +217,67 @@ h4{
 
 }
 
-/*RESPONSIVE DESIGN
+/*ABOUT*/
 
-320px (iPhone landscape)
-480px (iPhone portrait)
-600px (Android Tablets)
-768px (iPad + ~Galaxy Tabs)
-1024px (iPad landscape and desktops)*/
+.row{
+	height: 300px;
+	padding: 50px 100px 0;
+}
+
+#mypic{
+	float: left;
+	width: 30%;
+	padding-right: 10px;
+}
+
+#bio{
+	float: right;
+	width: 65%;
+}
+
+#experience{
+	clear: all;
+	float: left;
+	width: 65%;
+	padding-right: 10px;
+}
+
+#parker{
+	float: right;
+	width: 30%;
+	height: auto;
+}
+
+#grayham{
+	clear: all;
+	float: left;
+	width: 30%;
+	height: auto;
+	padding-right: 10px;
+}
+
+#testimonials{
+	float: right;
+	width: 65%;
+}
 
 
 /*CONTACT*/
 
 #contact-image{
-	background-image: url("../images/labmix2.jpeg");
-	background-size: cover;
 	height: auto;
 	width: 100%;
 }
 
 #contact-form{
-	border: 1px solid black;
+	width: 19.53125%;
 	position: absolute;
+	right: 9.76563%;
+	top: 25%;
+}
+
+input, textarea{
+	font-family: 'Margarine', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
 }

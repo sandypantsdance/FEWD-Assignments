@@ -46,11 +46,13 @@
 		</header>
 
 		<div class="container">
-			<img src="images/labmix2.jpeg" height=683px id="contact-image">
+			<img src="images/labmix2.jpeg" id="contact-image">
 			<div id="contact-form">
 				<form method="POST" action="http://formspree.io/uppupandaway@gmail.com">
-  					<input type="email" name="email" placeholder="Your email">
-  					<textarea name="message" placeholder="Your message"></textarea>
+  					<input type="name" name="name" placeholder="Name" required><br/><br/>
+  					<input type="phone" name="phone" placeholder="Phone xxx-xxx-xxxx" required><br/><br/>
+  					<input type="email" name="email" placeholder="Email" required><br/><br/>
+  					<textarea name="message" placeholder="Your message"></textarea><br/><br/>
   					<button type="submit">Send</button>
 				</form>
 			</div>
