@@ -32,7 +32,7 @@ header{
 
 header .logo{
 	text-align: center;
-	font-size: 60px;
+	font-size: 48px;
  	font-weight: 800;
  	font-family: 'Margarine', sans-serif;
  	margin: 30px;
@@ -58,7 +58,8 @@ header nav ul li a {
 	text-decoration: none;
 	color: #957fa4;
 	font-weight: 600;
-	font-size: 1.2em;
+	font-size: 1.6em;
+	font-family: 'Margarine';
 }
 
 #menu {
@@ -66,7 +67,7 @@ header nav ul li a {
 	width: 100%;
 	padding: 5px 0px;
 	background-color: white;
-	font-family: Margarine;
+	font-family: sans-serif;
 }
 
 #menu a:hover{
@@ -113,6 +114,7 @@ header nav ul li a {
 	padding-bottom: 1.95313%;
 	color: white;
 	font-size: 1.2em;
+	font-family: 'Margarine';
 }
 
 #footer img{
@@ -144,13 +146,7 @@ header nav ul li a {
 
 /*INDEX*/
 
-#main-image{
-	background-image: url("../images/bullterrier2.jpeg");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 750px;
-	width: 100%;
-}
+
 
 #main-image h4{
 	color: white;
@@ -162,16 +158,17 @@ header nav ul li a {
 
 #about-blurb{
 	border-radius: 5px;
-	float: left;
+	position: absolute;
 	font-size: 36px;
-	height: 330px;
+	height: 338px;
 	width: 29.296875%;
 	background-color: white;
 	opacity: 0.5;
 	padding: 5px 25px 5px 25px;
-	margin-top: 19.53125%;
-	margin-left: 14.6484375%;
+	top: 100px;
+	left: 14.6484375%;
 	color: #66cccc;	
+	font-family: 'Margarine';
 }
 
 #about-blurb-min{
@@ -183,10 +180,10 @@ header nav ul li a {
 	width: 100%;
 	height: 225px;
 	background-color: white;
-	color: #66cccc;
+	color: #957fa4;
 }
 
-#services{
+#services-blurb{
 	clear: all;
 	width: 100%;
 	height: 300px;
@@ -198,17 +195,20 @@ header nav ul li a {
 	font-weight: 600;
 }
 
-#spaniel{
+#cockerspaniel{
+	clear: all;
 	float: left;
 	width: 50%;
+	display: inline-block;
 }
 
-#service-blurb{
+#services-full{
+	float: right;
+	width: 50%;
 	height: 300px;
 	color: #957fa4;
 	margin: 3px;
 	padding-left: 1.5625%;
-	background-color: ;
 }
 
 #services-min{

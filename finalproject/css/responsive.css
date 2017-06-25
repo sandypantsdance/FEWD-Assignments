@@ -8,23 +8,26 @@
 
 @media screen and (max-width: 960px)
  and (min-width: 769px){
-	header .logo h3{
+	header .logo{
 		font-size: 58px;
 	}
 }
 
-@media screen and (min-width: 375px){
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px){
 
-/*INDEX*/
+/*HEADER*/
 
+	.social{
+		position: absolute;
+	}
 	.social img{
-		width: 28px;
-		height: 28px;
-		padding: 3px;
+		width: 36px;
+		height: 36px;
+		padding: 5px;
 		display: block;
 	}
 	header .logo a{
-		font-size: 40px;
+		font-size: 100px;
 	}
 	#full-list{
 		display: none;
@@ -32,58 +35,61 @@
 	#hamburger{
 		display: inline-block;
 	}
+	#mini-list a{
+		font-size: 50px;
+	}
 	h4{
 		display: none;
 	}
+
+/*FOOTER*/
+
+	footer{
+		font-size: 30px;
+	}
+
+	#footer img{
+		width: 50px;
+		height: 50px;
+		padding: 20px 3px;
+	}
+
+/*INDEX*/
+
 	#about-blurb{
 		display: none;
 	}
 	#about-blurb-min{
-		display: inline-block;
-		border-radius: 5px;
+		display: inline-block;	
 		float: left;
-		font-size: 20px;
+		position: absolute;
+		top: 50px;
+		left: 30px;
+		border-radius: 5px;
+		font-size: 36px;
 		font-weight: 500;
-		vertical-align: middle;	
-		height: 100px;
-		width: 29.296875%;
+		height: 410px;
+		width: 425px;
 		background-color: white;
 		opacity: 0.5;
-		padding: 5px 25px 5px 25px;
+		padding: 5px 25px 5px 8px;
 		margin-top: 60px;
 		margin-left: 40px;
-		color: #66cccc;	
+		color: #66cccc;
+		font-family: 'Margarine';
+	}
+
+	#about-blurb-min a{
+		text-decoration: none;
 	}
 	#why-blurb{
 		height: 200px;
 	}
-	#main-image{
-		height: 350px;
-	}
-	#service-blurb{
-		text-align: center;
-		height: 200px;
-		background-color: #ffee99;
-		padding: 1px 0 0 10px;
-		margin: 0;
-	}
-	#service-blurb h2{
-		font-size: 28px;
-		text-align: center;
-		color: #66cccc;
-	}
-	#service-blurb li{
-		font-size: 18px;
+	#services-blurb{
+		display: none;
 	}
 	#services-full{
 		display: none;
-	}
-	#services-min{
-		display: inline;
-	}
-	#spaniel{
-		float: left;
-		width: 50%;
 	}
 
 /*ABOUT*/
@@ -102,3 +108,99 @@
 	}
 
 }
+
+
+
+
+
+
+/*
+header{
+	background-color: #ffee99;
+  	overflow: hidden;
+}
+
+.social{
+	position: absolute;
+	padding: 10px;
+	right: 0;
+}
+
+.social img{
+	width: 35px;
+	height: 35px;
+	padding: 3px;
+}
+
+header .logo{
+	text-align: center;
+	font-size: 60px;
+ 	font-weight: 800;
+ 	font-family: 'Margarine', sans-serif;
+ 	margin: 30px;
+}
+
+header .logo a{
+	text-decoration: none;
+	color: #66cccc;
+}
+
+header nav ul {
+	padding: 0;
+}
+
+header nav ul li {
+	display: inline-block;
+	font-size: 18px;
+}
+
+header nav ul li a {
+	color: white;
+	padding: 15px;
+	text-decoration: none;
+	color: #957fa4;
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+#menu {
+	text-align: center;
+	width: 100%;
+	padding: 5px 0px;
+	background-color: white;
+	font-family: Margarine;
+}
+
+#menu a:hover{
+	font-weight: 700;
+	color: #66cccc;
+}
+
+#hamburger{
+  display: none;
+  height: 36px;
+  width: 48px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: white;
+}
+
+#hamburger .meat{
+  border: 4px solid #957fa4;
+  margin: 5px;
+  width: 48px;
+}
+
+#mini-list{
+	display: none;
+}
+
+#mini-list li{
+	width: 100%;
+	padding: 0 0 0px 0;
+}
+
+#mini-list a{
+	padding: 0;
+}
+*/
