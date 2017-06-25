@@ -75,12 +75,12 @@
 		padding: 5px 25px 5px 8px;
 		margin-top: 60px;
 		margin-left: 40px;
-		color: #66cccc;
 		font-family: 'Margarine';
 	}
 
 	#about-blurb-min a{
 		text-decoration: none;
+		color: #66cccc;
 	}
 	#why-blurb{
 		height: 200px;

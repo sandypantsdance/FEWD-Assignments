@@ -146,8 +146,6 @@ header nav ul li a {
 
 /*INDEX*/
 
-
-
 #main-image h4{
 	color: white;
 	font-size: 36px;
@@ -189,6 +187,7 @@ header nav ul li a {
 	height: 300px;
 	background-color: white;
 	font-size: 1.3em;
+	font-family: 'Margarine';
 }
 
 #services h2{
@@ -196,19 +195,16 @@ header nav ul li a {
 }
 
 #cockerspaniel{
-	clear: all;
 	float: left;
-	width: 50%;
 	display: inline-block;
 }
 
 #services-full{
 	float: right;
-	width: 50%;
+	width: 48%;
 	height: 300px;
 	color: #957fa4;
-	margin: 3px;
-	padding-left: 1.5625%;
+	margin-top: 0;
 }
 
 #services-min{
