@@ -1,0 +1,104 @@
+/*RESPONSIVE DESIGN
+
+320px (iPhone landscape)
+480px (iPhone portrait)
+600px (Android Tablets)
+768px (iPad + ~Galaxy Tabs)
+1024px (iPad landscape and desktops)*/
+
+@media screen and (max-width: 960px)
+ and (min-width: 769px){
+	header .logo h3{
+		font-size: 58px;
+	}
+}
+
+@media screen and (max-width: 480px){
+
+/*INDEX*/
+
+	.social img{
+		width: 28px;
+		height: 28px;
+		padding: 3px;
+		display: block;
+	}
+	header .logo a{
+		font-size: 40px;
+	}
+	#full-list{
+		display: none;
+	}
+	#hamburger{
+		display: inline-block;
+	}
+	h4{
+		display: none;
+	}
+	#about-blurb{
+		display: none;
+	}
+	#about-blurb-min{
+		display: inline-block;
+		border-radius: 5px;
+		float: left;
+		font-size: 20px;
+		font-weight: 500;
+		vertical-align: middle;	
+		height: 100px;
+		width: 29.296875%;
+		background-color: white;
+		opacity: 0.5;
+		padding: 5px 25px 5px 25px;
+		margin-top: 60px;
+		margin-left: 40px;
+		color: #66cccc;	
+	}
+	#why-blurb{
+		height: 200px;
+	}
+	#main-image{
+		height: 350px;
+	}
+	#service-blurb{
+		text-align: center;
+		height: 200px;
+		background-color: #ffee99;
+		padding: 1px 0 0 10px;
+		margin: 0;
+	}
+	#service-blurb h2{
+		font-size: 28px;
+		text-align: center;
+		color: #66cccc;
+	}
+	#service-blurb li{
+		font-size: 18px;
+	}
+	#services-full{
+		display: none;
+	}
+	#services-min{
+		display: inline;
+	}
+	#spaniel{
+		float: left;
+		width: 50%;
+	}
+
+/*ABOUT*/
+	
+	.row{
+		padding: 35px 45px 0;
+		height: 600px;
+	}
+	#mypic{
+		width: 100%;
+		padding: 0;
+	}
+	#bio{
+		width: 100%;
+		height: 300px;
+	}
+
+}

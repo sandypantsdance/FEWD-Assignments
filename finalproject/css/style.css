@@ -1,7 +1,7 @@
 body{
 	font-size: 16px;
 	font-weight: 400;
-	font-family: 'Margarine', sans-serif;
+	font-family: sans-serif;
 	text-decoration: none;
 	background-color: white;
 }
@@ -66,11 +66,39 @@ header nav ul li a {
 	width: 100%;
 	padding: 5px 0px;
 	background-color: white;
+	font-family: Margarine;
 }
 
 #menu a:hover{
 	font-weight: 700;
 	color: #66cccc;
+}
+
+#hamburger{
+  display: none;
+  height: 36px;
+  width: 48px;
+  padding-top: 3px;	
+  background-color: white;
+}
+
+#hamburger .meat{
+  border: 2.5px solid #957fa4;
+  margin: 5px;
+  width: 48px;
+}
+
+#mini-list{
+	display: none;
+}
+
+#mini-list li{
+	width: 100%;
+	padding: 0 0 10px 0;
+}
+
+#mini-list a{
+	padding: 0;
 }
 
 /*FOOTER*/
@@ -146,6 +174,10 @@ header nav ul li a {
 	color: #66cccc;	
 }
 
+#about-blurb-min{
+	display: none;
+}
+
 #why-blurb{
 	clear: all;
 	width: 100%;
@@ -166,22 +198,21 @@ header nav ul li a {
 	font-weight: 600;
 }
 
-#services-pic{
+#spaniel{
 	float: left;
-	height: 300px;
 	width: 50%;
-	background-image: url("../images/cockerspaniel2.jpeg");
-	background-size: cover;
-	background-repeat: no-repeat;
 }
 
 #service-blurb{
-	float: left;
 	height: 300px;
-	width: 46.38672%;
 	color: #957fa4;
 	margin: 3px;
 	padding-left: 1.5625%;
+	background-color: ;
+}
+
+#services-min{
+	display: none;
 }
 
 
@@ -193,31 +224,14 @@ header nav ul li a {
 768px (iPad + ~Galaxy Tabs)
 1024px (iPad landscape and desktops)*/
 
-@media screen and (max-width: 960px)
- and (min-width: 769px){
-	header .logo h3{
-		font-size: 58px;
-	}
-}
 
-@media screen and (max-width: 768px){
-	.social img{
-		width: 28px;
-		height: 28px;
-		padding: 3px;
-		display: block;
-	}
-	header .logo h3{
-		font-size: 50px;
-	}
-}
 
 /*ABOUT*/
 
 .row{
 	height: 300px;
 	padding: 50px 100px 0;
-	background-color: gray;
+	background-color: #e9e5ec;
 }
 
 .row h4{
@@ -267,7 +281,7 @@ header nav ul li a {
 
 .services{
 	height: 450px;
-	background-color: #e7e2ea;
+	background-color: #dfd8e3;
 }
 
 .services h4{
@@ -285,10 +299,31 @@ header nav ul li a {
 
 .services ul{
 	color: white;
-	text-decoration-style: wavy;
 }
 
+/*BLOG*/
 
+.container2{
+	width: 784px;
+}
+
+.posts{
+	background-color: #d1efef;
+}
+
+article{
+	height: 450px;
+}
+
+aside{
+	float: right;
+	width: 240px;
+	background-color: #dfd8e3;
+}
+
+aside h4{
+	margin: 0;
+}
 
 /*CONTACT*/
 

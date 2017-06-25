@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
 	</head>
 
 	<body>
@@ -30,7 +31,14 @@
 						<div class="meat"></div>
 					</div>
 					<nav>
-						<ul>
+						<ul id="full-list">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+						<ul id="mini-list">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="services.html">Services</a></li>
@@ -45,8 +53,11 @@
 				<div id="main-image">
 					<h4>Where your pets are family</h4>
 					<span id="about-blurb">
-						<p>Personalized dog walking and pet sitting in Denver</p>
+						<p>Personalized dog walking and pet ≥≥≥ sitting in Denver</p>
 						<p>Serving dogs, cats, rabbits, and small animals</p>
+					</span>
+					<span id="about-blurb-min">
+						<p>Dog walking and pet sitting in Denver</p>
 					</span>
 				</div>
 			</div>	
@@ -57,19 +68,21 @@
 				<p>How do my services standout from others</p>
 				</div>
 			</div>
-			<div class="container" id="services">
-				<div id="services-pic">
-				</div>
-				<div id="service-blurb">
+			<div class="container" id="service-blurb">
 				<h2>Services</h2>
-					<ul>
+					<ul id="services-full">
 						<li>Dog walking</li>
 						<li>Outings: dog park, hiking</li>
 						<li>Socialization: play dates</li>
 						<li>Basic obedience training</li>
 						<li>Pet sitting: in-home or boarding</li>
 					</ul>
-				</div>
+					<ul id="services-min">
+						<li>Dog walking</li>
+						<li>Dog socialization</li>
+						<li>Basic obedience training</li>
+						<li>Pet sitting: in-home or boarding</li>
+					</ul>
 			</div>
 		
 		<footer>
