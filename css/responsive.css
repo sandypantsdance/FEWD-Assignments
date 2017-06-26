@@ -175,11 +175,37 @@
 		display: none;
 	}
 
-/*CONTACT*/
+/*SERVICES*/
 
-	body{
-		width: 100%;
-	}
+.heading{
+	text-align: center;
+}
+
+.services p{
+	font-size: 36px;
+}
+
+#dogwalking{
+	height: 485px;
+}
+
+#petsitting{
+	height: 520px;
+}
+
+#petsitting li{
+	font-size: 34px;
+}
+
+#training{
+	height: 1100px;
+}
+
+#counseling{
+	height: 540px;
+}
+
+/*CONTACT*/
 
 	#contact-body{
 		height: 1200px;
@@ -188,7 +214,6 @@
 	}
 
 	#mailbox{
-		width: 100%;
 		position: absolute;
 		left: 36%;
 	}
@@ -200,7 +225,6 @@
 	#formy{
 		margin: auto;
 		font-size: 48px;
-		width: 100%;
 		text-align: left;
 		position: absolute;
 		top: 550px;

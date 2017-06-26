@@ -284,6 +284,7 @@ body{
 		color: #66cccc;
 		font-weight: 700;
 		font-size: 30px;
+		font-family: 'Margarine';
 	}
 
 	.full-bio{
@@ -331,8 +332,9 @@ body{
 /*SERVICES*/
 
 	.services{
-		height: 450px;
+		height: 300px;
 		background-color: #dfd8e3;
+		padding-right: 90px;
 	}
 
 	.services h4{
@@ -344,12 +346,43 @@ body{
 
 	.services p{
 		margin: 0;
-		padding-left: 30px;
+		padding-top: 25px;
+		padding-left: 90px;
 		color: #957fa4;
 	}
 
 	.services ul{
 		color: white;
+		font-size: 20px;
+	}
+
+	#one {
+		float: left;
+		padding-left: 200px;
+	}
+
+	#list-b{
+		padding-left: 400px;
+	}
+
+	.heading{
+		padding: 20px 0 0 25px;
+	}
+
+	#dogwalking{
+		height: 270px;
+	}
+
+	#petsitting{
+		height: 325px;
+	}
+
+	#training{
+		height: 440px;
+	}
+
+	#counseling{
+		height: 230px;
 	}
 
 /*BLOG*/
