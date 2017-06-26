@@ -256,11 +256,15 @@ body{
 		font-size: 28px;
 	}
 
+	#me{
+		width: 40%
+	}
+
 	#pic{
 		float: left;
-		width: 40%;
-		padding-right: 10px;
-		padding-top: 17px;
+		width: auto;
+		height: 300px;
+		margin: auto;
 	}
 
 	#bio{
@@ -386,7 +390,6 @@ body{
 		float: left;
 		padding: 18px 0 10px 25px;
 		left: 48%;
-
 	}
 
 	form{

@@ -105,7 +105,7 @@
 		color: #957fa4;
 	}
 	#about1{
-		height: 1275px;
+		height: 1700px;
 	}
 	#about2{
 		height: 1475px;
@@ -116,10 +116,10 @@
 	}
 	#pic{
 		display: block;
-		margin: auto;
-		width: 100%;
+		width: 70%;
 		height: auto;
 		padding: 0;
+		padding-left: 15%;
 	}
 	#bio{
 		width: 100%;
@@ -178,37 +178,46 @@
 /*CONTACT*/
 
 	#contact-body{
-		font-size: 29px;
-		height: 500px;
-		padding-left: 118px;
+		height: 1200px;
+		padding-left: 50px;
+		padding-top: 35px;	
+	}
+
+	#mailbox{
+		width: 100%;
+		position: absolute;
+		left: 36%;
 	}
 
 	#contact-image{
-		width: 30%;
-		float: left;
-		padding: 15px 0 15px 15px;
+		padding: 0;
 	}
 
 	#formy{
-		width: 50%;
-		padding-top: 12px;
-		text-align: left;	
+		margin: auto;
+		font-size: 48px;
+		width: 100%;
+		text-align: left;
+		position: absolute;
+		top: 550px;
+		left: 13%;	
 	}
 
 	form{
 		height: 300px;
 		width: 300px;
 		margin: 0;
-		padding-left: 58px;
+		padding-left: 123px;
 	}
 
 	input, textarea{
-		width: 100%;
+		width: 150%;
 		float: left;
+		font-size: 24px;
 	}
 
 	button{
-		
+		margin-left: 155px;
 	}
 }
 
