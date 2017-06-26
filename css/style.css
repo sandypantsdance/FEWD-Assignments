@@ -256,6 +256,14 @@ body{
 		font-size: 28px;
 	}
 
+	#about1{
+		height: 325px;
+	}
+
+	#about2{
+		padding-top: 25px;
+	}
+
 	#me{
 		width: 40%
 	}
@@ -297,6 +305,7 @@ body{
 
 	#gdog{
 		padding-bottom: 60px;
+		padding-top: 25px;
 	}
 
 	#grayham{

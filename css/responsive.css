@@ -52,7 +52,7 @@
 	}
 
 	#footer{
-		height: 200px;
+		height: 215px;
 	}
 
 	#footer img{
@@ -105,7 +105,7 @@
 		color: #957fa4;
 	}
 	#about1{
-		height: 1700px;
+		height: 1825px;
 	}
 	#about2{
 		height: 1475px;
@@ -176,6 +176,10 @@
 	}
 
 /*CONTACT*/
+
+	body{
+		width: 100%;
+	}
 
 	#contact-body{
 		height: 1200px;
