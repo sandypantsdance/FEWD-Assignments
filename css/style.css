@@ -156,6 +156,11 @@ body{
 		margin-top: 4.88281%;
 	}
 
+	#bullterrier{
+		height: 100%;
+		width: 100%;
+	}
+
 	#about-blurb{
 		border-radius: 5px;
 		position: absolute;
@@ -179,17 +184,21 @@ body{
 		clear: all;
 		width: 100%;
 		height: 225px;
-		background-color: white;
 		color: #957fa4;
+	}
+
+	#why-blurb p{
+		margin: 0;
 	}
 
 	#services-blurb{
 		clear: all;
 		width: 100%;
-		height: 222px;
+		height: 225px;
 		background-color: white;
 		font-size: 1.3em;
 		font-family: 'Margarine';
+		background-color: #ffee99;
 	}
 
 	#services h2{
@@ -200,6 +209,7 @@ body{
 	#cockerspaniel{
 		float: left;
 		display: inline-block;
+		height: 100%;
 	}
 
 	#services-full{
@@ -297,6 +307,13 @@ body{
 		width: 65%;
 	}
 
+	.reviewer{
+		color: white;
+		font-style: italic;
+		font-weight: 800;
+		float: right;
+	}
+
 /*SERVICES*/
 
 .services{
@@ -347,28 +364,28 @@ aside h4{
 
 /*CONTACT*/
 
-#contact-body{
-	margin: auto;
-	height: 500px;
-	padding: 15px 0 35px 0;
-}
+	#contact-body{
+		margin: auto;
+		height: 500px;
+		padding: 15px 0 35px 0;
+	}
 
-#contact-image{
-	max-height: 500px;
-	width: auto;
-	float: left;
-	padding-left: 24.414062%;
-}
+	#contact-image{
+		max-height: 500px;
+		width: auto;
+		float: left;
+		padding-left: 24.414062%;
+	}
 
-form{
-	float: right;
-	position: absolute;
-	top: 13%;
-	left: 59.5683%;
-}
+	form{
+		float: right;
+		position: absolute;
+		top: 13%;
+		left: 59.5683%;
+	}
 
-input, textarea{
-	font-family: 'Margarine', sans-serif;
-	font-size: 14px;
-	font-weight: 300;
-}
+	input, textarea{
+		font-family: 'Margarine', sans-serif;
+		font-size: 14px;
+		font-weight: 300;
+	}
