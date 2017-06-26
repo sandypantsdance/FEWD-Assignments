@@ -48,7 +48,7 @@
 /*FOOTER*/
 
 	footer{
-		font-size: 30px;
+		font-size: 40px;
 	}
 
 	#footer{
@@ -174,6 +174,38 @@
 		width: 100%;
 		display: none;
 	}
+
+/*CONTACT*/
+
+	#contact-body{
+		font-size: 30px;
+		height: 500px;
+		padding-left: 118px;
+	}
+
+	#contact-image{
+		width: 30%;
+		float: left;
+		padding: 15px 0 15px 15px;
+	}
+
+	#formy{
+		float: right;
+		width: 65%;
+		padding-top: 12px;
+	}
+
+	form{
+		padding-left: 35px;
+	}
+
+	input, textarea{
+		width: 200%;
+	}
+
+	button{
+		margin-left: -50px;
+	}
 }
 
 
@@ -181,93 +213,3 @@
 
 
 
-/*
-header{
-	background-color: #ffee99;
-  	overflow: hidden;
-}
-
-.social{
-	position: absolute;
-	padding: 10px;
-	right: 0;
-}
-
-.social img{
-	width: 35px;
-	height: 35px;
-	padding: 3px;
-}
-
-header .logo{
-	text-align: center;
-	font-size: 60px;
- 	font-weight: 800;
- 	font-family: 'Margarine', sans-serif;
- 	margin: 30px;
-}
-
-header .logo a{
-	text-decoration: none;
-	color: #66cccc;
-}
-
-header nav ul {
-	padding: 0;
-}
-
-header nav ul li {
-	display: inline-block;
-	font-size: 18px;
-}
-
-header nav ul li a {
-	color: white;
-	padding: 15px;
-	text-decoration: none;
-	color: #957fa4;
-	font-weight: 600;
-	font-size: 1.2em;
-}
-
-#menu {
-	text-align: center;
-	width: 100%;
-	padding: 5px 0px;
-	background-color: white;
-	font-family: Margarine;
-}
-
-#menu a:hover{
-	font-weight: 700;
-	color: #66cccc;
-}
-
-#hamburger{
-  display: none;
-  height: 36px;
-  width: 48px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  background-color: white;
-}
-
-#hamburger .meat{
-  border: 4px solid #957fa4;
-  margin: 5px;
-  width: 48px;
-}
-
-#mini-list{
-	display: none;
-}
-
-#mini-list li{
-	width: 100%;
-	padding: 0 0 0px 0;
-}
-
-#mini-list a{
-	padding: 0;
-}
-*/
