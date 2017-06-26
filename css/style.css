@@ -378,27 +378,27 @@ body{
 		max-height: 500px;
 		width: auto;
 		float: left;
-		padding-left: 163px;
+		padding-left: 17%;
 	}
 
 	#formy{
 		color: #66cccc;
 		float: left;
 		padding: 18px 0 10px 25px;
+		left: 48%;
+
 	}
 
 	form{
-		float: right;
-		position: absolute;
-		top: 15%;
-		left: 62.5%;
+		padding-top: 25px;
+		padding-left: 10px;
 	}
 
 	input, textarea{
 		font-family: 'Margarine', sans-serif;
 		font-size: 14px;
 		font-weight: 300;
-		width: 150%;
+		width: 100%;
 		float: right;
 	}
 

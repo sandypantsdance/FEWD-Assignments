@@ -178,7 +178,7 @@
 /*CONTACT*/
 
 	#contact-body{
-		font-size: 30px;
+		font-size: 29px;
 		height: 500px;
 		padding-left: 118px;
 	}
@@ -190,21 +190,25 @@
 	}
 
 	#formy{
-		float: right;
-		width: 65%;
+		width: 50%;
 		padding-top: 12px;
+		text-align: left;	
 	}
 
 	form{
-		padding-left: 35px;
+		height: 300px;
+		width: 300px;
+		margin: 0;
+		padding-left: 58px;
 	}
 
 	input, textarea{
-		width: 200%;
+		width: 100%;
+		float: left;
 	}
 
 	button{
-		margin-left: -50px;
+		
 	}
 }
 
