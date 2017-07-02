@@ -159,13 +159,8 @@ body{
 
 
 /*INDEX*/
-
-	#main-image h4{
-		color: white;
-		font-size: 36px;
-		position: absolute;
-		left: 4.88281%;
-		margin-top: 4.88281%;
+	#main-image{
+		height: 739px;
 	}
 
 	#bullterrier{
@@ -177,15 +172,14 @@ body{
 		border-radius: 5px;
 		position: absolute;
 		font-size: 36px;
-		height: 338px;
-		width: 29.296875%;
-		background-color: white;
-		opacity: 0.5;
-		padding: 5px 25px 5px 25px;
-		top: 100px;
-		left: 14.6484375%;
+		height: 575px;
+		width: 300px;
+		padding: 0 25px 5px 25px;
+		top: 20px;
+		left: 100px;
 		color: #66cccc;	
 		font-family: 'Margarine';
+		margin: auto;
 	}
 
 	#about-blurb-min{
@@ -195,16 +189,49 @@ body{
 	#why-blurb{
 		clear: all;
 		width: 90%;
-		height: 345px;
+		height: 300px;
 		color: #66cccc;
-		font-size: 1em;
-		padding: 10px 50px 0;
+		font-weight: 600;
+		display: inline;
+		font-family: 'Margarine';
 	}
 
-	#why-blurb p{
-		margin: 0;
+	#why-blurb img{
+		border: 5px solid #957fa4 ;
+		border-radius: 50%;
+		height: 100px;
+		width: 100px;
 	}
 
+	#vectors{
+		height: 600px;	
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		padding: 0;
+	}
+
+	.icon{
+		max-width: 115px;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		padding: 0 10px;
+		margin: auto;
+		text-align: center;
+		font-size: 0.55em;
+	}
+
+	.icon img {
+		display: flex;
+		margin-bottom: 6px;	
+	}
+
+	.names{
+		display: flex;
+	}
+
+/*
 	#services-blurb{
 		clear: all;
 		width: 100%;
@@ -242,6 +269,7 @@ body{
 	#services-min{
 		display: none;
 	}
+*/
 
 /*ABOUT*/
 
