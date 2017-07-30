@@ -63,43 +63,45 @@
 
 /*INDEX*/
 
-	#about-blurb{
-		display: none;
-	}
-	#about-blurb-min{
-		display: inline-block;	
-		float: left;
-		position: absolute;
-		top: 50px;
-		left: 30px;
-		border-radius: 5px;
-		font-size: 42px;
-		font-weight: 500;
-		height: 460px;
-		width: 425px;
-		background-color: white;
-		opacity: 0.5;
-		padding: 5px 25px 5px 3px;
-		margin-top: 60px;
-		margin-left: 40px;
-		font-family: 'Margarine';
-	}
-	#about-blurb-min a{
-		text-decoration: none;
-		color: #957fa4;
-	}
+	/*
+		#about-blurb{
+			display: none;
+		}
+
+		#about-blurb-min{
+			display: inline-block;	
+			float: left;
+			position: absolute;
+			top: 50px;
+			left: 30px;
+			border-radius: 5px;
+			font-size: 42px;
+			font-weight: 500;
+			height: 382px;
+			width: 425px;
+			background-color: white;
+			opacity: 0.5;
+			padding: 5px 25px 5px 3px;
+			margin-top: 60px;
+			margin-left: 40px;
+			font-family: 'Margarine';
+		}*/
+
 	#why-blurb{
 		height: 640px;
 		font-size: 36px;
-		width: 90%;
+
 		padding: 13px 30px 0 40px;
 	}
-	#services-blurb{
-		display: none;
+
+	#vectors{
+		width: 100%;
 	}
-	#services-full{
-		display: none;
+
+	.icon{
+		width: 300px;
 	}
+
 
 /*ABOUT*/
 	

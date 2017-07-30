@@ -169,16 +169,15 @@ body{
 		position: relative;
 	}
 
-	#about-blurb{
+	 #about-blurb{
 		border-radius: 5px;
 		position: absolute;
 		font-size: 36px;
 		height: 575px;
 		width: 300px;
 		padding: 0 25px 5px 25px;
-		top: 2.08333%;
-		left: 10.41667%;
-		color: #66cccc;	
+		top: 25px;
+		left: 125px;	
 		font-family: 'Margarine';
 		margin: auto;
 	}
@@ -194,7 +193,6 @@ body{
 		color: #ffee99;
 		font-weight: 600;
 		display: inline;
-		font-family: 'Margarine';
 	}
 
 	#why-blurb img{
@@ -230,6 +228,55 @@ body{
 
 	.names{
 		display: flex;
+	}
+
+	#customize{
+		clear: all;
+		background-color: #e9e5ec;
+		height: 600px;
+		width: 100%;
+		font-family: 'Margarine';
+	}
+
+	#custom-services{
+		height: 150px;
+		font-size: 1.6em;
+		border: 1px solid blue;
+		color: black;
+		position: absolute;
+		text-align: center;
+		padding: 5px 150px 5px 150px;
+	}
+
+	#custom-services p{
+		margin-bottom: 3px;
+	}
+
+	#buddy-image{
+		margin: auto;
+	}
+
+	#threedogs{
+		clear: all;
+		margin: auto;
+	}
+
+	.CTA{
+		width: 100%;
+	}
+
+	.contact-button{
+		font-family: 'Margarine';
+		border: 3px solid #ffee99;
+		border-radius: 5px;
+		background-color: #ffee99;
+		width: 250px;
+		height: 55px;
+		font-size: 1.5em;
+		position: relative;
+		text-align: center;
+		padding-top: 9px;
+		margin: auto;
 	}
 
 /*
