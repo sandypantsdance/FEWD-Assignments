@@ -7,7 +7,7 @@ body{
 }
 
 .container {
-  max-width: 100%;
+  max-width: 960px;
   position: relative;
 }
 
@@ -232,7 +232,7 @@ body{
 
 	#customize{
 		clear: all;
-		background-color: #e9e5ec;
+		background-color: white;
 		height: 600px;
 		width: 100%;
 		font-family: 'Margarine';
@@ -240,43 +240,38 @@ body{
 
 	#custom-services{
 		height: 150px;
+		width: 960px;
 		font-size: 1.6em;
-		border: 1px solid blue;
 		color: black;
+		background-color: gray;
 		position: absolute;
 		text-align: center;
-		padding: 5px 150px 5px 150px;
-	}
-
-	#custom-services p{
-		margin-bottom: 3px;
 	}
 
 	#buddy-image{
 		margin: auto;
 	}
 
-	#threedogs{
-		clear: all;
-		margin: auto;
-	}
-
 	.CTA{
 		width: 100%;
+		padding: 15px 0;
 	}
 
 	.contact-button{
 		font-family: 'Margarine';
-		border: 3px solid #ffee99;
 		border-radius: 5px;
 		background-color: #ffee99;
-		width: 250px;
-		height: 55px;
+		width: 200px;
+		height: 28px;
 		font-size: 1.5em;
 		position: relative;
 		text-align: center;
-		padding-top: 9px;
+		padding: 10px 0;
 		margin: auto;
+	}
+
+	.contact-button a{
+		text-decoration: none;
 	}
 
 /*
